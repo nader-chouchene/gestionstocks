@@ -1,1 +1,1 @@
-web: gunicorn gestionstocks.wsgi --log-file -
+web: gunicorn gestionstocks.wsgi --log-file - --static-map /static:/gestionstocks/staticfiles
